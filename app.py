@@ -20,6 +20,10 @@ def hello():
 def baking():
     return render_template('baking.html')
 
+@app.route('/baking/cakes')
+def cakes():
+    return render_template('cakes.html')
+
 #start the server
 if __name__ == "__main__":
     app.run()
