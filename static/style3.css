@@ -1,0 +1,141 @@
+
+/* PHOTOS */
+.photos {
+        padding-bottom:10%;
+}
+    
+.photolinks {
+    padding-bottom: 2%;
+}
+/*photos change color on hover*/
+    .photos:hover {
+        opacity: 0.7;
+    }
+.photolinks:hover {
+    opacity:0.7;
+}
+
+/*BAck BUTTon*/
+.backbutton {
+    padding-bottom:10%;
+}
+
+.backbutton:hover {
+        opacity: 0.7;
+    }
+
+/*HEADER*/
+    .header {
+        background-color: #ffffff;
+        opacity: 1;
+    }
+
+    .fullWidth {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: initial;
+    }
+    
+    .heading-centered a {
+        font-family: 'Muli';
+        font-size: 8vw;
+        font-weight: 100;
+        color: black;
+        text-align: center;
+    }
+    
+.heading-centered a:hover {
+    color: black;
+}
+
+.navbar li a {
+    font-size: 2vw;
+    font-family: 'Muli';
+}
+    
+.copyright {
+    padding-left:10%;
+}
+
+/*CONTACT PG*/
+.ro {
+    margin: 8px -10px
+}
+
+.co {
+    float: left;
+    width:50%;
+    color: white;
+    border:none;
+    display: inline-block;
+    position: relative;
+}
+
+.ro:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contacttxt1 {
+    right: 15%;
+    border: none;
+    position: absolute;
+    float: left;
+    display: inline-block;
+    font-size: 5vw;
+    bottom: 30%;
+    z-index: 1;
+}
+.contacttxt2{
+    right:30%;
+    border: none;
+    position: absolute;
+    float: left;
+    display: inline-block;
+    font-size: 5vw;
+    bottom: 30%;
+    z-index: 1;
+}
+
+/*
+FOOTER
+*/
+.copyright {
+    font-family: 'Muli';
+    color:  #000000;
+    text-align: left;
+}
+
+.social-bar{
+    font-family: 'Muli';
+    color: white;
+    text-align: right;
+    float: right;
+}
+
+.social-bar a{
+    vertical-align: top;
+    display: inline;
+}
+
+.social-bar .fa {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.social-bar .fa:hover{  
+color: white;
+background-color: #000000;
+}

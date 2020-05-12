@@ -1,12 +1,106 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!--specifies title of the page !-->
-        <title>Home</title>
-    <head>
-    <body>
-    <p>I love fries!</p>
-    <a href="/1006">visit 1006 page</a>
-    </body>
+        <link rel="stylesheet" 
+              href="http://fonts.googleapis.com/css?family=Muli&display=swap">
+        <link rel="stylesheet" 
+              href="../static/style3.css">
+        <link rel="stylesheet" 
+              href="../static/bootstrap.css">
+        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+        <link rel="stylesheet" 
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" 
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Emese Marka</title>
+	</head>
+	<body>
+        
+        <!--HEADER-->
+        <div class="header fullWidth">
+                <center><img src="../static/header.jpg" style="width:60%; padding-top:10px; padding-bottom:20px;"></center>
+            
+            <!--NAVBAR-->  
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center mx-auto" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                        <a class="nav-link" href="/">HOME<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">PHOTOGRAPHY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/baking">BAKING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <!--PHOTOS-->
+        <div class="container" style="padding-top: 2rem;">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="../static/emese.png" alt="Emese Marka" style="width:100%" class="photos"><br>
+                </div>
+                <div class="col-sm">
+                    <div style=" font-size: 20px;">
+                        <center>
+                            Hi! I'm <b>Emese</b> and I'm a sophomore at Columbia University majoring in 
+                            Biophysics (with possibly a concentration in Math)!
+                            <br><br>
+                            
+                            <i>Besides school, I do a lot of other things, like...</i>
+                            <br><br>
+                            
+                            <i class="em em-cookie"></i><b> Baking</b><br>
+                            I've loved to bake ever since I was a kid, and as I got older, I started 
+                            experimenting with more interesting recipes, until baking became something 
+                            I did a few times a week. I make everything from cakes to pastries to bread. 
+                            I'm always up for trying something new, but also for making my favorite 
+                            recipes again and again! <br>
+                            
+                            <i>Click <a href="/baking">here</a> to see some pics of my bakes!</i>
+                            <br><br>
+                            
+                            <i class="em em-camera_with_flash"></i><b> Photography</b><br>
+                            I'm also a photographer. I photograph both portraits and events. Some of the 
+                            main events I've worked at are the <a href="http://gr21.org/album/index.html">
+                            21st International Conference for General Relativity and Gravitation </a> and 
+                            <a href="http://www.privatespacescience.com/">Dawn of Private Space Science 
+                            Symposium</a>. Photography is something I do to relax—like baking, it lets my 
+                            creativity out and is something I greatly enjoy.
+                            <br>
+                            
+                            <i>Click <a href="/photography">here</a> to see some pics of my photos!</i>
+                            <br>
+                            
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--FOOTER-->
+        <footer>
+            <div class="row fullWidth" id= "sink">
+                <div class="col">
+                    <p class="copyright">   Emese Marka &copy 2020</p>
+                </div>
+                <div class="col end">
+                    <div class = "social-bar">
+                        <a href="" class="fa fa-envelope"></a>
+                        <a href="https://www.instagram.com/emesemarka/" target="_blank" class="fa fa-instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+	</body>
 </html>
-

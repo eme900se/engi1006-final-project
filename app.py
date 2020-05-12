@@ -16,9 +16,9 @@ app = Flask(__name__)
 def hello():
     return render_template('index.html')
 
-@app.route('/1006')
-def h1006():
-    return "class page"
+@app.route('/baking')
+def baking():
+    return render_template('baking.html')
 
 #start the server
 if __name__ == "__main__":
